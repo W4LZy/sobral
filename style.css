@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+p{
+    color: white;
+}
+header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    border-bottom: 5px solid red;
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    transition:ease 1.0s;
+     position: fixed; /* Fixa a navbar na tela */
+  top: 0;          /* Alinha no topo */
+  left: 0;         /* Encosta na borda esquerda */
+  width: 100%;     /* Ocupa toda a largura da tela */
+  background-color: #000000; /* Cor de fundo */
+  z-index: 1000;   /* Garante que fique acima dos outros elementos */
+    
+}
+header:hover{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 210px;
+    border-bottom: 5px solid red;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    transition: 0.5s;
+    transform: translateY(-45px); 
+    
+}
+header:hover img{
+    width: 200px ;
+    margin-top: 50px;
+    transition:ease 1.0s;
+}
+
+header:hover a{
+    font-size: 35px;
+    transition: 0.5s;
+    margin-top: 30px;
+    
+}
+
+body{
+   background-color: rgb(39, 39, 39);
+ background-image: url(./img/Porsche-Panamera-Estetica-Automotiva.webp);
+ 
+
+ background-repeat: no-repeat;
+}
+#navegation{
+display: flex;
+gap: 70px;
+}
+.logo-nav{
+    width: 150px;
+padding-left: 60px;
+transition:ease 1.0s;}
+
+    a:hover{
+        text-decoration: underline;
+        transform: translateX(4px);
+        transition: 0.25s;
+
+    }
+    a{color: red;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition:ease 1.0s;
+    
+    }
+    .paragrafo-info{
+      display: flex;
+      align-items: center;
+        
+        backdrop-filter: blur(20px);
+       height: 350px;
+        border-radius: 10px;
+    width: 500px;
+    box-shadow: 5px 16px 20px -3px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 5px 16px 20px -3px rgba(0, 0, 0, 0.5);
+flex-direction: column;
+padding: 30px;
+    }
+    #inicio{color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    #caixa-grande{
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+        margin-right: 590px;
+        transition:ease 1.0s;
+    }
+    #caixa-grande:hover{
+        transition: 0.5s;
+        transform: translateX(-45px);
+    }
+    #info-caixa{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .servicos{
+        display: flex;
+        justify-content:center ;
+        margin-top:150px;
+    }
+    #titulo-servico{
+        color: white;
+    }
+    #caixa2{
+        
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #div2{
+    
+        display: flex;
+        align-items: center;
+          
+          backdrop-filter: blur(20px);
+         height: 170px;
+          border-radius: 10px;
+      width: 500px;
+      box-shadow: 5px 16px 20px -3px rgba(236, 236, 236, 0.5);
+  -webkit-box-shadow: 5px 16px 20px -3px rgba(231, 224, 224, 0.5);
+  flex-direction: column;
+  padding: 50px;
+  margin-left: 440px;
+  margin-top: 120px;
+    }
+    #titulo-servico{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        background-color: rgba(0, 0, 0, 0.5); 
+        box-shadow: 5px 16px 20px -3px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(20px);
+        border-radius: 5px;
+      width: 1000px;
+        display: flex;
+    justify-content: center;
+        margin-top: 100px;
+    }
+.servico-foto{
+    width: 300px;
+    border-radius: 10px;
+    height: 200px;
+}
+.caixa-servicos{
+   
+}
+#caixaserv{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.serv{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 200px;
+    background-color: black;
+    color: red;
+    border-radius: 15px;
+    width: 500px;
+    height: 470px;
+   padding-top: 20px;
+   gap: 10px;
+}
+#cavalo{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+   
+
+
+    
