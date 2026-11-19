@@ -15,13 +15,11 @@ header{
     gap: 300px;
     align-items: center;
     transition:ease 1.0s;
-     position: fixed; /* Fixa a navbar na tela */
-  top: 0;          /* Alinha no topo */
-  left: 0;         /* Encosta na borda esquerda */
-  width: 100%;     /* Ocupa toda a largura da tela */
-  background-color: #000000; /* Cor de fundo */
-  z-index: 1000;   /* Garante que fique acima dos outros elementos */
-    
+     position: fixed; 
+
+  width: 100%;    
+  background-color: #000000;
+  z-index: 1000;   
 }
 header:hover{
     display: flex;
@@ -47,6 +45,7 @@ header:hover a{
     margin-top: 30px;
     
 }
+
 
 body{
    background-color: rgb(39, 39, 39);
@@ -75,113 +74,136 @@ transition:ease 1.0s;}
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition:ease 1.0s;
+    }
+    .rodape{
+
+    }
     
+    .container{
+display: flex;
+justify-content: center;
+align-items: center;
+
     }
-    .paragrafo-info{
-      display: flex;
-      align-items: center;
-        
-        backdrop-filter: blur(20px);
-       height: 350px;
-        border-radius: 10px;
-    width: 500px;
-    box-shadow: 5px 16px 20px -3px rgba(0, 0, 0, 0.5);
--webkit-box-shadow: 5px 16px 20px -3px rgba(0, 0, 0, 0.5);
-flex-direction: column;
-padding: 30px;
-    }
-    #inicio{color: white;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-    #caixa-grande{
+    .armario{
         display: flex;
         justify-content: center;
-        margin-top: 140px;
-        margin-right: 590px;
-        transition:ease 1.0s;
-    }
-    #caixa-grande:hover{
-        transition: 0.5s;
-        transform: translateX(-45px);
-    }
-    #info-caixa{
+        margin-top: 150px;
+        background-color: transparent;
+        color: red;
         font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .servicos{
-        display: flex;
-        justify-content:center ;
-        margin-top:150px;
-    }
-    #titulo-servico{
-        color: white;
-    }
-    #caixa2{
-        
-        font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    #div2{
-    
-        display: flex;
-        align-items: center;
+  
+            background: rgba(255, 255, 255, 0.15);
+      
+            backdrop-filter: blur(10px);
+         
+          width: 1000px;
+     
+            border: 1px solid rgba(250, 0, 0, 0.3);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      
           
-          backdrop-filter: blur(20px);
-         height: 170px;
-          border-radius: 10px;
-      width: 500px;
-      box-shadow: 5px 16px 20px -3px rgba(236, 236, 236, 0.5);
-  -webkit-box-shadow: 5px 16px 20px -3px rgba(231, 224, 224, 0.5);
-  flex-direction: column;
-  padding: 50px;
-  margin-left: 440px;
-  margin-top: 120px;
     }
-    #titulo-servico{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 40px;
-        background-color: rgba(0, 0, 0, 0.5); 
-        box-shadow: 5px 16px 20px -3px rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(20px);
-        border-radius: 5px;
-      width: 1000px;
+    .armario h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .papelao{
         display: flex;
-    justify-content: center;
-        margin-top: 100px;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        background-color: transparent;
+        color: red;
+        font-size: 20px;
+       transition: 0.5s;
+        padding: 10px;
+            background: rgba(5, 5, 5, 0.15);
+            backdrop-filter: blur(10px);
+          width: 600px;
+          border: 1px solid rgba(250, 0, 0, 0.3);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     }
-.servico-foto{
-    width: 300px;
-    border-radius: 10px;
-    height: 200px;
-}
-.caixa-servicos{
-   
-}
-#caixaserv{
-    margin-top: 200px;
+    .papelao h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .papelao:hover{
+        transition:0.5s ;
+      transform: translateX(100px);
+    }
+    .papelao p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.titulo-servico{
     display: flex;
-    justify-content: center;
-    
-}
-.serv{display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center ;
-    margin-bottom: 200px;
-    background-color: black;
-    color: red;
-    border-radius: 15px;
-    width: 500px;
-    height: 470px;
-   padding-top: 20px;
-   gap: 10px;
 }
-#cavalo{
+
+.servico{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 300px;
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: rgba(255, 255, 255, 0.15);
+  
+        backdrop-filter: blur(10px);
+     
+      width: 1000px;
+ 
+      border: 1px solid rgba(250, 0, 0, 0.3);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  
+      
+}
+.um{
+    
+    display: flex;
+    flex-direction:column;
+   align-items: center;
+    background-color: #000000;
+    width: 400px;
+    border-radius: 15px;
+    padding: 20px;
+    color: red;
+    border: 2px solid red;
+    
+}   
+.servico-foto{
+    border-radius: 15px;
+    width: 300px;
+    
 }
 
-   
+.caixao{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-
-    
+.caixinha{
+    display: flex;
+    justify-content: center;
+}
+.vermais{margin-top: 10px;
+    background: #ff0303;
+    background: linear-gradient(90deg, rgba(255, 3, 3, 1) 0%, rgba(181, 13, 13, 1) 35%, rgba(56, 1, 1, 1) 100%);
+  border: 2px solid black;
+  width: 400px;
+  height: 100px;
+  border-radius: 200px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  
+}
+.caixaver{
+    display: flex;
+    justify-content: center;
+}
