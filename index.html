@@ -1,82 +1,130 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobral automotiva|sobral estetica</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="./img/WhatsApp_Image_2026-11-11_at_13.51.25-removebg-preview.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sobral Estética Automotiva — cuidado e detalhamento para o seu veículo.">
+  <title>Sobral | Estética Automotiva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./coco.css ">
 </head>
 <body>
-    <header>
-        <div>
+  <header>
+        <div class="icon">
             <a href="./index.html"><img src="./img/WhatsApp_Image_2026-11-11_at_13.51.25-removebg-preview.png" alt=""
                 class="logo-nav"></a></div>
         <nav id="navegation">
            
             <a href="./index.html">Inicio</a>
-            <a href="./servicos.html">serviços</a>
-            <a href="">agendamento</a>
-            <a href="">sobre</a>
+            <a href="./servicos2.html">serviços</a>
+            <a href="./agendamento.html">agendamento</a>
+            <a href="#rodap">sobre</a>
         </nav>
 
     </header>
-    <main class="container">
-        <section class="casa">
-            <div class="caixinha">
+    <div class="overlay"></div>
 
-           
-            <article class="armario">
-        <h1>Bem-vindo a Sobral - Estetica Automotiva!</h1>
-    </article>
-</div>
-    <article class="papelao" data-aos="zoom-out-right">
-        <h1>Eleve a Estética do Seu Veículo com Nossos Serviços Especializados:</h1>
-        <p>Transforme seu veículo em uma obra-prima sobre rodas com a nossa excelência em estética automotiva. Oferecemos serviços especializados, incluindo polimento profundo, revestimentos cerâmicos de última geração e personalização estilizada para manter o seu carro impecável. Mantenha-se atualizado com as últimas tendências em design automotivo e torne o seu veículo a inveja da estrada. Comece sua jornada estética conosco hoje.</p>
-        </article>
-       <div class="caixinha">
-        <article class="servico">
-            <h1>O que Fazemos para transformar seu veículo?</h1>
-        </article>
-    </div>
-        <section class="caixao"> 
-        <article class="um" data-aos="fade-down" ><img src="./img/acb0bb24-5770-4b18-8cf0-d93d588100d8.png"
-            class="servico-foto">
-
-        <h1>Limpeza interna</h1>
-     
-</article>
-
-    <article class="um" data-aos="fade-down"><img src="./img/detalhamento interno.jpeg" alt="" class="servico-foto"><h1>Detalhamento Interno</h1>
-       
-</article>  
-<article class="um" data-aos="fade-down"><img src="./img/2.jpeg" alt="" class="servico-foto"><h1>Eliminação de Odores</h1>
-   
-
-</article>
-</section>
-
-    <div class="caixaver">
-      <a href="./servicos.html">
-        <button class="vermais">
-            Ver Mais
-        </button>
-      </a>
-      
     
-        </section>
+
+    <section class="hero" id="sobre">
+      <div class="welcome">BEM-VINDO À SOBRAL <span>•</span> ESTÉTICA AUTOMOTIVA</div>
+
+      <div class="intro-card">
+        <p class="eyebrow">CUIDADO EM CADA DETALHE</p>
+        <h1>Eleve a estética do seu veículo com nossos <span>serviços especializados.</span></h1>
+        <p class="intro-copy">
+          Transforme seu veículo em uma verdadeira obra-prima. Trabalhamos com
+          limpeza detalhada, revitalização e proteção para realçar cada detalhe
+          e manter seu carro sempre impecável.
+        </p>
+        <a class="text-link" href="#servicos">Conheça nossos serviços <span>↗</span></a>
+      </div>
+
+      <div class="services" id="servicos">
+        <div class="section-heading">
+          <p class="eyebrow">EXPERIÊNCIA SOBRAL</p>
+          <h2>O que fazemos para transformar o seu veículo?</h2>
+          <p>Um cuidado especial por dentro e por fora.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <img src="./img/simples.jpg" alt="Interior de veículo limpo e cuidado">
+            <div class="card-content">
+              <span class="number">01 / INTERIOR</span>
+              <h3>Limpeza interna</h3>
+              <p>Higienização cuidadosa para renovar o ambiente do seu carro.</p>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="./img/interno.jpg" alt="Detalhamento e cuidado automotivo">
+            <div class="card-content">
+              <span class="number">02 / DETALHAMENTO</span>
+              <h3>Detalhamento interno</h3>
+              <p>Atenção aos pequenos detalhes, com acabamento caprichado.</p>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="./img/odores.jpg" alt="Interior de automóvel">
+            <div class="card-content">
+              <span class="number">03 / BEM-ESTAR</span>
+              <h3>Eliminação de odores</h3>
+              <p>Mais conforto e sensação de limpeza em cada viagem.</p>
+            </div>
+          </article>
+        </div>
+
+        <a class="button" href="./servicos2.html">VER TODOS OS SERVIÇOS <span>→</span></a>
+      </div>
+    </section>
+
+    <footer class="rodape" id="rodap">
+
+    <div class="conteudo-rodape">
+
+        <div class="sobre-rodape">
+            <h2>SOBRAL ESTÉTICA <span>AUTOMOTIVA</span></h2>
+            <p>
+                Cuidado, qualidade e dedicação em cada detalhe.
+                Deixe seu veículo com aparência renovada e protegida.
+            </p>
+        </div>
+
+        <div class="links-rodape">
+            <h3>Links rápidos</h3>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="contato-rodape">
+            <h3>Contato</h3>
+            <p>WhatsApp: (11) 95348-03790</p>
+            <p>E-mail: contato@sobralestetica.com.br</p>
+            <p>Endereço: Rua Thomaz Cyro Pozzi, 744 - Vila Nova Carolina,<br> São Paulo - SP, 02263-030</p>
+        </div>
+
+        <div class="redes-rodape">
+            <h3>Redes sociais</h3>
+            <a href="https://www.instagram.com/sobralesteticaauto?cnvx=OGx6NmtwcjlzaDZl">Instagram</a>
+            
+        </div>
+
     </div>
 
-    </main>
-    <footer class="rodape">
+    <div class="direitos-rodape">
+        <p>© 2026 Sobral Estética Automotiva. Todos os direitos reservados.</p>
+    </div>
 
-    </footer>
+</footer>
+
+  </main>
 </body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-    
-</script>
-<script>
-    AOS.init();
-  </script>
 </html>

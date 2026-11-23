@@ -1,0 +1,347 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .pagina-agendamento {
+            width: 90%;
+            max-width: 1100px;
+            margin: 50px auto;
+        }
+
+        .titulo-agendamento {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .titulo-agendamento h1 {
+            font-size: 32px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .titulo-agendamento span {
+            color: #e00000;
+        }
+
+        .titulo-agendamento p {
+            color: #aaa;
+            font-size: 15px;
+        }
+
+        .container-agendamento {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: #1b1b1b;
+            border: 1px solid #333;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .informacoes-agendamento {
+            background-color: #171717;
+            padding: 35px;
+            border-right: 1px solid #333;
+        }
+
+        .informacoes-agendamento h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .informacoes-agendamento h2 span {
+            color: #e00000;
+        }
+
+        .informacoes-agendamento p {
+            color: #bbb;
+            line-height: 1.7;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+
+        .item-informacao {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .icone-informacao {
+            background-color: #2b1111;
+            color: #ff2929;
+            padding: 13px;
+            border-radius: 8px;
+            font-size: 20px;
+        }
+
+        .item-informacao h3 {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .item-informacao span {
+            color: #aaa;
+            font-size: 13px;
+        }
+
+        .formulario-agendamento {
+            padding: 35px;
+        }
+
+        .formulario-agendamento h2 {
+            font-size: 23px;
+            margin-bottom: 25px;
+        }
+
+        .campo {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .campo label {
+            font-size: 14px;
+            margin-bottom: 9px;
+            color: #eee;
+        }
+
+        .campo input,
+        .campo select {
+            width: 100%;
+            padding: 14px;
+            background-color: #111;
+            border: 1px solid #444;
+            border-radius: 6px;
+            color: white;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .campo input:focus,
+        .campo select:focus {
+            border-color: #e00000;
+        }
+
+        .campo select option {
+            background-color: #111;
+            color: white;
+        }
+
+        .botao-agendar {
+            width: 100%;
+            padding: 16px;
+            background-color: #e00000;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .botao-agendar:hover {
+            background-color: #b90000;
+        }
+
+        .aviso-agendamento {
+            color: #888;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 15px;
+            line-height: 1.5;
+        }
+        .icon{
+    display: flex;
+    justify-content: flex-start;
+}
+header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    border-bottom: 5px solid red;
+    display: flex;
+    gap: 300px;
+   justify-content: center;
+    transition:ease 1.0s;
+    
+align-items: center ;
+  width: 100%;    
+  background-color: #000000;
+  
+}
+header:hover{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 210px;
+    border-bottom: 5px solid red;
+    display: flex;
+    gap: 200px;
+    
+    transition: 0.5s;
+    transform: translateY(-45px); 
+    
+}
+header:hover img{
+    width: 200px ;
+    margin-top: 50px;
+    transition:ease 1.0s;
+}
+
+header:hover a{
+    font-size: 35px;
+    transition: 0.5s;
+    margin-top: 30px;
+    
+}
+
+
+
+#navegation{
+display: flex;
+gap: 70px;
+}
+.logo-nav{
+    width: 150px;
+padding-left: 60px;
+transition:ease 1.0s;}
+
+    a:hover{
+        text-decoration: underline;
+        transform: translateX(4px);
+        transition: 0.25s;
+
+    }
+    a{color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition:ease 1.0s;
+    }
+
+.rodape {
+    background-color: #080808;
+    border-top: 3px solid #e00000;
+    padding: 45px 8% 20px;
+    color: #ccc;
+}
+
+.conteudo-rodape {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 35px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sobre-rodape h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.sobre-rodape span {
+    color: #e00000;
+}
+
+.sobre-rodape p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.rodape h3 {
+    color: #e00000;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.rodape ul {
+    list-style: none;
+}
+
+.rodape li {
+    margin-bottom: 12px;
+}
+
+.rodape a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.rodape a:hover {
+    color: #e00000;
+}
+
+.contato-rodape p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.redes-rodape a {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.direitos-rodape {
+    border-top: 1px solid #333;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #777;
+}
+
+@media (max-width: 800px) {
+    .conteudo-rodape {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .conteudo-rodape {
+        grid-template-columns: 1fr;
+    }
+
+    .rodape {
+        padding: 35px 7% 20px;
+    }
+}
+
+
+        @media (max-width: 750px) {
+            .container-agendamento {
+                grid-template-columns: 1fr;
+            }
+
+            .informacoes-agendamento {
+                border-right: none;
+                border-bottom: 1px solid #333;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .pagina-agendamento {
+                width: 92%;
+                margin: 30px auto;
+            }
+
+            .titulo-agendamento h1 {
+                font-size: 26px;
+            }
+
+            .informacoes-agendamento,
+            .formulario-agendamento {
+                padding: 25px 20px;
+            }
+        }

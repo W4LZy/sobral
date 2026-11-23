@@ -6,6 +6,10 @@
 p{
     color: white;
 }
+.icon{
+    display: flex;
+    justify-content: flex-start;
+}
 header{
     display: flex;
     background-color: rgb(0, 0, 0);
@@ -13,10 +17,10 @@ header{
     border-bottom: 5px solid red;
     display: flex;
     gap: 300px;
-    align-items: center;
+   justify-content: center;
     transition:ease 1.0s;
-     position: fixed; 
-
+    position: fixed; 
+align-items: center ;
   width: 100%;    
   background-color: #000000;
   z-index: 1000;   
@@ -28,7 +32,7 @@ header:hover{
     border-bottom: 5px solid red;
     display: flex;
     gap: 200px;
-    align-items: center;
+    
     transition: 0.5s;
     transform: translateY(-45px); 
     
@@ -47,13 +51,7 @@ header:hover a{
 }
 
 
-body{
-   background-color: rgb(39, 39, 39);
- background-image: url(./img/Porsche-Panamera-Estetica-Automotiva.webp);
- 
 
- background-repeat: no-repeat;
-}
 #navegation{
 display: flex;
 gap: 70px;
@@ -69,7 +67,7 @@ transition:ease 1.0s;}
         transition: 0.25s;
 
     }
-    a{color: red;
+    a{color: rgb(255, 255, 255);
     font-size: 25px;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -78,7 +76,13 @@ transition:ease 1.0s;}
     .rodape{
 
     }
-    
+    body{
+   background-color: rgb(7, 7, 7);
+ background-image: url(./img/Porsche-Panamera-Estetica-Automotiva.webp);
+ background-size: 100%;
+
+ background-repeat: no-repeat;
+}
     .container{
 display: flex;
 justify-content: center;
@@ -88,7 +92,7 @@ align-items: center;
     .armario{
         display: flex;
         justify-content: center;
-        margin-top: 150px;
+        
         background-color: transparent;
         color: red;
         font-size: 20px;
@@ -190,6 +194,8 @@ align-items: center;
 .caixinha{
     display: flex;
     justify-content: center;
+    margin-top: 130px;
+    
 }
 .vermais{margin-top: 10px;
     background: #ff0303;
@@ -206,4 +212,98 @@ align-items: center;
 .caixaver{
     display: flex;
     justify-content: center;
+}
+.avaliaçao{display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    background-color: #080808;
+    border-top: 3px solid #e00000;
+    padding: 45px 8% 20px;
+    color: #ccc;
+}
+
+.conteudo-rodape {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 35px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sobre-rodape h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.sobre-rodape span {
+    color: #e00000;
+}
+
+.sobre-rodape p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.rodape h3 {
+    color: #e00000;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.rodape ul {
+    list-style: none;
+}
+
+.rodape li {
+    margin-bottom: 12px;
+}
+
+.rodape a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.rodape a:hover {
+    color: #e00000;
+}
+
+.contato-rodape p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.redes-rodape a {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.direitos-rodape {
+    border-top: 1px solid #333;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #777;
+}
+
+@media (max-width: 800px) {
+    .conteudo-rodape {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .conteudo-rodape {
+        grid-template-columns: 1fr;
+    }
+
+    .rodape {
+        padding: 35px 7% 20px;
+    }
 }

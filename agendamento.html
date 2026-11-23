@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Estética Automotiva</title>
+<link rel="stylesheet" href="./agendamento.css">
+   
+</head>
+
+<body>
+<header>
+        <div class="icon">
+            <a href="./index.html"><img src="./img/WhatsApp_Image_2026-11-11_at_13.51.25-removebg-preview.png" alt=""
+                class="logo-nav"></a></div>
+        <nav id="navegation">
+           
+           <a href="./index.html">Inicio</a>
+            <a href="./servicos2.html">serviços</a>
+            <a href="./agendamento.html">agendamento</a>
+            <a href="#rodap">sobre</a>
+        </nav>
+
+    </header>
+    <main class="pagina-agendamento">
+
+        <div class="titulo-agendamento">
+            <h1>Agende seu <span>Horário</span></h1>
+            <p>Escolha o serviço e reserve um horário para cuidar do seu veículo.</p>
+        </div>
+
+        <div class="container-agendamento">
+
+            <section class="informacoes-agendamento">
+
+                <h2>Cuide do seu <span>Veículo</span></h2>
+
+                <p>
+                    Agende seu atendimento de maneira rápida e fácil.
+                    Escolha o serviço desejado e envie sua solicitação
+                    diretamente pelo WhatsApp.
+                </p>
+
+                <div class="item-informacao">
+                    <div class="icone-informacao">📅</div>
+
+                    <div>
+                        <h3>Escolha o dia</h3>
+                        <span>Selecione o melhor dia para você.</span>
+                    </div>
+                </div>
+
+                <div class="item-informacao">
+                    <div class="icone-informacao">🚗</div>
+
+                    <div>
+                        <h3>Escolha o serviço</h3>
+                        <span>Selecione o cuidado que seu veículo precisa.</span>
+                    </div>
+                </div>
+
+                <div class="item-informacao">
+                    <div class="icone-informacao">💬</div>
+
+                    <div>
+                        <h3>Confirme pelo WhatsApp</h3>
+                        <span>Envie sua solicitação de agendamento.</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="formulario-agendamento">
+
+                <h2>Solicitar Agendamento</h2>
+
+                <form id="formAgendamento">
+
+                    <div class="campo">
+                        <label for="nome">Nome completo</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            placeholder="Digite seu nome"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="dia">Dia da semana</label>
+
+                        <select id="dia" required>
+                            <option value="">Selecione um dia</option>
+                            <option>Segunda-feira</option>
+                            <option>Terça-feira</option>
+                            <option>Quarta-feira</option>
+                            <option>Quinta-feira</option>
+                            <option>Sexta-feira</option>
+                            <option>Sábado</option>
+                           
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="servico">Serviço desejado</label>
+
+                        <select id="servico" required>
+                            <option value="">Selecione um serviço</option>
+                            <option value="Higienização do Carpete - R$ 200,00">Higienização do Carpete - R$ 200,00</option>
+                            <option value="Higienização dos Couros - R$ 150,00">Higienização dos Couros - R$ 150,00</option>
+                            <option value="Higienização dos Bancos - R$ 250,00">Higienização dos Bancos - R$ 250,00</option>
+                            <option value="Higienização de Teto - R$ 150,00">Higienização de Teto - R$ 150,00</option>
+                            <option value="Detalhamento Interno - R$ 60,00">Detalhamento Interno - R$ 60,00</option>
+                            <option value="Limpeza Interna Simples - R$ 30,00">Limpeza Interna Simples - R$ 30,00</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="horario">Horário desejado</label>
+
+                        <select id="horario" required>
+                            <option value="">Selecione um horário</option>
+                           
+                            <option>09:00</option>
+                            <option>10:00</option>
+                            <option>11:00</option>
+                            <option>13:00</option>
+                            <option>14:00</option>
+                            <option>15:00</option>
+                            <option>16:00</option>
+                            <option>17:00</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="botao-agendar">
+                        Agendar pelo WhatsApp
+                    </button>
+
+                    <p class="aviso-agendamento">
+                        O horário será confirmado após o contato pelo WhatsApp.
+                    </p>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+
+   <script src="./main.js"></script>
+        
+
+<footer class="rodape" id="rodap">
+
+    <div class="conteudo-rodape">
+
+        <div class="sobre-rodape">
+            <h2>SOBRAL ESTÉTICA <span>AUTOMOTIVA</span></h2>
+            <p>
+                Cuidado, qualidade e dedicação em cada detalhe.
+                Deixe seu veículo com aparência renovada e protegida.
+            </p>
+        </div>
+
+        <div class="links-rodape">
+            <h3>Links rápidos</h3>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="contato-rodape">
+            <h3>Contato</h3>
+            <p>WhatsApp: (11) 95348-03790</p>
+            <p>E-mail: contato@sobralestetica.com.br</p>
+            <p>Endereço: Rua Thomaz Cyro Pozzi, 744 - Vila Nova Carolina,<br> São Paulo - SP, 02263-030</p>
+        </div>
+
+        <div class="redes-rodape">
+            <h3>Redes sociais</h3>
+            <a href="https://www.instagram.com/sobralesteticaauto?cnvx=OGx6NmtwcjlzaDZl">Instagram</a>
+            
+        </div>
+
+    </div>
+
+    <div class="direitos-rodape">
+        <p>© 2026 Sobral Estética Automotiva. Todos os direitos reservados.</p>
+    </div>
+
+</footer>
+</body>
+</html>
